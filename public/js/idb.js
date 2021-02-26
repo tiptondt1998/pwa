@@ -53,3 +53,4 @@ getAll.onsuccess = function() {
         });
     }
   };
+  module.exports = idb;
