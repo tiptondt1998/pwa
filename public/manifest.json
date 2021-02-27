@@ -1,0 +1,23 @@
+{
+
+    "name":"budget",
+    "short_name":"budget",
+    "icons": [
+
+        {
+            "src":"/icons/icon-144x144.png",
+            "type":"image/png",
+            "sizes":"144x144"
+        },
+        {
+            "src":"/icons/icon-96x96.png",
+            "type":"image/png",
+            "sizes":"96x96"
+        }
+
+    ],
+    "background_color": "#01579b",
+    "theme_color": "#ffffff",
+    "start_url":"/",
+    "display":"standalone"
+}

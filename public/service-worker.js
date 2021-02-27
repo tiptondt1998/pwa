@@ -4,7 +4,10 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE = [
     "./index.html",
-    "./public/css/styles.css"
+    "./css/styles.css",
+    "./js/idb.js",
+    "./js/index.js",
+    "https://cdn.jsdelivr.net/npm/chart.js@2.8.0"
   ];
 
 self.addEventListener('install', function (e) {

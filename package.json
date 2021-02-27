@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "lite-server": "lite-server"
   },
   "repository": {
@@ -25,9 +25,11 @@
     "mongo": "^0.1.0",
     "mongoose": "^5.11.18",
     "morgan": "^1.10.0",
-    "service-worker": "0.0.0"
+    "service-worker": "0.0.0",
+    "webpack": "^5.24.2"
   },
   "devDependencies": {
+    "webpack-dev-server": "^3.11.2",
     "webpack-pwa-manifest": "^4.3.0"
   }
 }
