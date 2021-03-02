@@ -1,4 +1,11 @@
-let db;
+
+const indexedDB =
+  window.indexedDB ||
+  window.mozIndexedDB ||
+  window.webkitIndexedDB ||
+  window.msIndexedDB ||
+  window.shimIndexedDB;
+  let db;
 const request = indexedDB.open("Transaction", 1);
 
 
@@ -56,4 +63,4 @@ getAll.onsuccess = function() {
     }
   };
   }
-  // upon a successful .getAll() execution, run this function
+  window.addEventListener("online", uploadTransaction);
